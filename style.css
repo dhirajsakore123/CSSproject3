@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7F7F7;
+}
+.nav{
+    width: 100%;
+    height: 70px;
+    position:fixed;
+    top: 0;
+    background: white;
+    box-shadow: 0px 10px 20px #7B7B7B29;
+    z-index: 20;
+}
+.task{
+    color:#424242;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Roboto';
+    
+
+}
+.list{
+    color: #00A5EC;
+    font-size: 35px;
+    font-weight: bold;
+    font-family:'Roboto';
+}
+.text{
+    position: absolute;
+    left:130px ;
+    top: 15px;
+}
+.middle{
+    height:200px;
+    
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #00A5EC;
+    color: white;
+    position: relative;
+    top: 105px;
+   left: 1150px;
+   text-align: center;
+   font-size: 40px;
+   font-weight: bold;
+   display: inline-block;
+
+}
+
+.addtask{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 1170px;
+    font-size: 20px;
+    color: #424242;
+    
+
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    background: #00A5EC;
+    color: aliceblue;
+    
+}
+
+.last{position: relative;
+    right: -160px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1200px;
+    height: 1500px;
+
+}
+.box{
+    width: 370px;
+    height: 400px;
+    background-color: #FFFFFF;
+    
+}
+.box4{position: relative;
+      right: 129px;
+      bottom:330px;
+} 
+.box5{
+    position: relative;
+    bottom:330px;
+    right: 259px;
+}
+.box:hover{
+    box-shadow: 10px 10px 20px #7B7B7B29;
+}
+.boxtext{
+    color: #00A5EC;
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+a{
+    text-decoration: none;
+    color:#00A5EC ;
+}
+.lable{
+    text-decoration: line-through;
+    color: #C2C2C2;
+    font-size:20px ;
+    position: relative;
+    top: 40px;
+}
+.shop{
+    position: relative;
+    top: 60px;
+    color: #424242;
+}
+.check{
+    text-align: left;
+    padding: 30px;
+    font-size: 20px;
+  
+}
+.parent{
+    filter: blur(5px);
+    
+}
+.parent1{
+    font-family: 'Roboto', sans-serif;
+}
+
+.addnewtask{
+    background: #FFFFFF;
+    width: 500px;
+    height: 220px;
+    position:fixed;
+    top: 220px;
+    right:500px ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #F7F7F7;
+
+   
+
+}
+.page2{
+    display: inline-block;
+    color: #404040;
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+ 
+}
+.cross{
+    color: #858585;
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+   left: 330px;
+   
+   
+}
+input[type=text]{
+    width: 400px;
+    height: 30px;
+    position: relative;
+    top: 40px;
+    right: -40px;
+    border-radius: 5px;
+    border: 2px solid #EDEDED;
+    background-color: #EDEDED;
+    
+}
+input[type=checkbox]{
+     width: 20px;
+     height: 20px;
+     
+  
+}
+
+button{
+    position: relative;
+    top: 80px;
+    right: -350px;
+    background: #00A5EC;
+    color:white;
+    width: 120px;
+    height: 30px;
+    border:2px solid #00A5EC ;
+    border-radius: 5px;
+
+}
+.middle3{
+
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #00A5EC;
+    color: white;
+    position: relative;
+    top: 105px;
+   left: 750px;
+   text-align: center;
+   font-size: 35px;
+   font-weight: bold;
+   display: inline-block;
+
+}
+.addtask3{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 770px;
+    font-size: 25px;
+    color: #424242;
+  
+
+}
+.back3{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color:#424242;
+    color: white;
+    position: relative;
+    top: 70px;
+   left:500px;
+   text-align: center;
+   font-size: 22px;
+   font-weight: bold;
+  
+}
+
+.backbutton{
+    display: inline-block;
+    position: relative;
+     top: 40px;
+     left: 540px;
+    font-size: 25px;
+    color: #424242;
+}
+
+.container{
+   height: 300px; 
+   width: 400px;
+   background-color: #FFFFFF;
+   position: relative;
+   top: 70px;
+   left: 500px;
+   border-radius: 5px;
+}
+.container:hover{
+    box-shadow: 0px 0px 20px #7B7B7B29;
+}
+.boxtext3{
+    text-align: center;
+}
+
+/* #################### */
+/* media Qiery */
+
+@media (min-width:280px) and (max-width:500px){
+
+    
+    .text{
+        left: 10vmin;
+    }
+    .sum{
+        overflow-x: hidden;
+        height: 2000px;
+
+    }
+    .addtask{
+        display: none;
+
+    }
+    
+    .icon{
+        left: 40vmin;
+    }
+    .last{
+        flex-direction: column;
+       left: 12vmin;
+       width: auto;
+     
+    }
+
+    .middle{
+        width: auto;
+        
+    }
+       
+    .parent1{
+        overflow-x: hidden;
+        width: auto;
+        height: 2000px;
+        
+    }
+    .parent{
+        overflow-x: hidden;
+    }
+    .box{
+        width: 300px;
+        height: 350px;
+    }
+     
+    .addnewtask{
+        height: 250px;
+       width: 300px;        
+       top: 270px;
+       left: 10vw;
+       overflow-x: hidden;
+    }
+    input[type=text]{
+        width: 200px;
+        height: 30px;
+        position: relative;
+        top: 40px;
+        right: -40px;
+        border-radius: 5px;
+        border: 2px solid #EDEDED;
+        background-color: #EDEDED; 
+      
+    
+    
+}
+.cross{
+    color: #858585;
+    display: inline-block;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+   left: 120px;
+}
+button{
+    left: 150px;
+}
+
+.addtask3{
+    display:none;
+}
+.icon3{
+
+    left: 43vmin;
+}
+.backbutton{
+   left: 15vmin;
+}
+.back3{
+    left: 5vmin;
+}
+
+.container{
+    width: 300px;
+    height: 350px;
+    left: 10vmin;
+}
+
+
+
+
+}
+
+
+
+
+
+
